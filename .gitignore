@@ -3,5 +3,8 @@ EmbeddedTest.csv
 EmbeddedVal.csv
 EmbeddedTrain.csv
 all_data_with_identitiesEmbedded.csv
+all_data_with_identitiesEmbeddedSelfCleaned.csv
 
 .ipynb_checkpoints/
+
+**.csv
