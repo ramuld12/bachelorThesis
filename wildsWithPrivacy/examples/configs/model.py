@@ -7,7 +7,7 @@ model_defaults = {
     'distilbert-base-uncased': {
         'optimizer': 'AdamW',
         'max_grad_norm': 1.0,
-        'scheduler': None,
+        'scheduler': 'linear_schedule_with_warmup',
     },
     'code-gpt-py': {
         'optimizer': 'AdamW',

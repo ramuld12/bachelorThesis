@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=trainCivil
 #SBATCH --ntasks=1 --cpus-per-task=16 --mem=8000M
-#SBATCH -p gpu --gres=gpu:titanx:1
+#SBATCH -p gpu --gres=gpu:2
 #SBATCH --time=2-00:00:00
 
 echo "Training started by szl855"
@@ -28,5 +28,6 @@ python3 -m pip install scipy
 python3 -m pip install mpmath
 python3 -m pip install tensorflow
 python3 -m pip install tensorflow-privacy
+python3 -m pip install opacus
 
 python3 examples/run_expt.py --dataset civilcomments --download --algorithm groupDRO --root_dir data --progress_bar --optimizer PrivateAdam

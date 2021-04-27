@@ -33,5 +33,5 @@ models = ['resnet18_ms', 'resnet50', 'resnet34', 'wideresnet50',
          'densenet121', 'bert-base-uncased', 'distilbert-base-uncased',
          'gin-virtual', 'logistic_regression', 'code-gpt-py']
 algorithms = ['ERM', 'groupDRO', 'deepCORAL', 'IRM']
-optimizers = ['SGD', 'Adam', 'AdamW', 'PrivateSGD', 'PrivateAdam', 'PrivateAdamW']
+optimizers = ['SGD', 'Adam', 'AdamW', 'DPSGD', 'DPAdam', 'DPAdamW']
 schedulers = ['linear_schedule_with_warmup', 'ReduceLROnPlateau', 'StepLR']
