@@ -6,6 +6,9 @@ all_data_with_identitiesEmbedded.csv
 all_data_with_identitiesEmbeddedSelfCleaned.csv
 domain_data_with_identities.csv
 
+
+uncased_L-12_H-768_A-12
+
 .ipynb_checkpoints/
 
 **.csv
