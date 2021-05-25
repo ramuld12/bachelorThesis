@@ -6,6 +6,8 @@ all_data_with_identitiesEmbedded.csv
 all_data_with_identitiesEmbeddedSelfCleaned.csv
 domain_data_with_identities.csv
 
+finalOwnWilds/logs/
+
 
 uncased_L-12_H-768_A-12
 
