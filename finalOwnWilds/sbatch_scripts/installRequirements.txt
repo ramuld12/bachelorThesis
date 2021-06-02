@@ -1,0 +1,10 @@
+torch==1.8.1+cu102 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.8.2+cu102 -f https://download.pytorch.org/whl/torch_stable.html
+torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+opacus
+torch-scatter -f https://pytorch-geometric.com/whl/torch-1.8.1+cu102.html
+torch-sparse -f https://pytorch-geometric.com/whl/torch-1.8.1+cu102.html
+torch-cluster -f https://pytorch-geometric.com/whl/torch-1.8.1+cu102.html
+torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.8.1+cu102.html
+torch-geometric
+transformers
